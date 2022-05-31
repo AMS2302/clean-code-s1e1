@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Todo App</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="style.css" media="screen">
   </head>
   <body class="page">
     <header class="header page__header">
@@ -15,13 +15,13 @@
           href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
     </header>
     <main class="main page__main">
-      <p id="adding-element" class="new-task-row">
+      <div id="adding-element" class="new-task-row">
         <label for="new-task" class="label new-task-row__label">Add Item</label>
-        <section class="section new-task-row__section">
+        <div class="section new-task-row__section">
           <input id="new-task" class="input new-task-row__input input_text task" type="text">
           <button class="button new-task-row__button">Add</button>
-        </section>
-      </p>
+        </div>
+      </div>
       <h3 class="title main__title">Todo</h3>
       <ul id="incomplete-tasks" class="list main__list">
         <li class="item list__item">
